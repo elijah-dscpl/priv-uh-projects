@@ -1,2 +1,1 @@
-# priv-uh-projects
-Proyectos personales de DataScience (in UH)
+# Proyectos personales de DataScience
