@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recolector de Noticias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario para Recolectar Información de la Noticia</h1>
+        
+        <form id="newsForm">
+            <label for="title">Título de la Noticia:</label>
+            <input type="text" id="title" name="title" required>
+            
+            <label for="date">Fecha de Publicación:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="author">Autor (si disponible):</label>
+            <input type="text" id="author" name="author">
+            
+            <label for="category">Categoría:</label>
+            <input type="text" id="category" name="category">
+            
+            <label for="content">Contenido de la Noticia:</label>
+            <textarea id="content" name="content" rows="4" required></textarea>
+            
+            <label for="tags">Etiquetas (separadas por comas):</label>
+            <input type="text" id="tags" name="tags">
+            
+            <button type="submit">Generar JSON</button>
+        </form>
+
+        <div id="downloadSection" class="hidden">
+            <p>Archivo JSON generado exitosamente.</p>
+            <button id="downloadButton">Descargar JSON</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
