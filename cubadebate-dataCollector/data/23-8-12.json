@@ -1,0 +1,88 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "2023-08-12",
+            "dia": "sábado",
+            "url": "http://www.cubadebate.cu/noticias/2023/08/12/union-electrica-no-pronostica-afectaciones-por-deficit-de-generacion-pero-la-reserva-en-horario-nocturno-es-de-solo-66-mw/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "pico nocturno",
+            "disponibilidad": 3016,
+            "demanda_max": 2950,
+            "deficit": 0,
+            "pronostico": {
+                "afectacion": 0
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2740,
+                "demanda": 2450,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 432,
+            "fuera": {
+                "averias": [],
+                "mantenimiento": [
+                    {
+                        "nombre": "6",
+                        "CTE": "Renté"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 999,
+                    "razon": "averías",
+                    "mw_afectados": 999
+                },
+                {
+                    "cantidad": 120,
+                    "razon": "mantenimiento",
+                    "mw_afectados": 120
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "Entrada de 3 unidades en Energas Varadero",
+                    "razon": "adición",
+                    "cantidad_mw": 98
+                },
+                {
+                    "desc": "Entrada de Puerto Escondido",
+                    "razon": "adición",
+                    "cantidad_mw": 20
+                },
+                {
+                    "desc": "Entrada de motores de Generación Distribuida",
+                    "razon": "adición",
+                    "cantidad_mw": 158
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 0,
+            "hora": "",
+            "desc": "No se registraron afectaciones por déficit de capacidad de generación."
+        },
+        "dia_anterior": {
+            "desc": "El día anterior no hubo afectaciones por déficit de capacidad de generación.",
+            "horas": 0,
+            "hora_rest": ""
+        }
+    }
+}

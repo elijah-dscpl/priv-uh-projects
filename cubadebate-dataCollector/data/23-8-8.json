@@ -1,0 +1,106 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "2023-08-08",
+            "dia": "martes",
+            "url": "http://www.cubadebate.cu/noticias/2023/08/08/union-electrica-informa-afectaciones-para-esta-jornada-2/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "pico nocturno",
+            "disponibilidad": 2719,
+            "demanda_max": 3000,
+            "deficit": 281,
+            "pronostico": {
+                "afectacion": 351
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2370,
+                "demanda": 2550,
+                "totalidad": false
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 300
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 353,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "3",
+                        "CTE": "Renté"
+                    },
+                    {
+                        "nombre": "5",
+                        "CTE": "Renté"
+                    },
+                    {
+                        "nombre": "2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento": [
+                    {
+                        "nombre": "6",
+                        "CTE": "Renté"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 1021,
+                    "razon": "averías",
+                    "mw_afectados": 1021
+                },
+                {
+                    "cantidad": 238,
+                    "razon": "mantenimiento",
+                    "mw_afectados": 238
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "Entrada de la unidad 2 de la Hidroeléctrica Hanabanilla",
+                    "razon": "adición",
+                    "cantidad_mw": 14
+                },
+                {
+                    "desc": "Entrada de Generación Móvil de Melones",
+                    "razon": "adición",
+                    "cantidad_mw": 110
+                },
+                {
+                    "desc": "Entrada de la unidad 3 de la CTE Renté",
+                    "razon": "adición",
+                    "cantidad_mw": 80
+                },
+                {
+                    "desc": "Entrada de motores de generación distribuida",
+                    "razon": "adición",
+                    "cantidad_mw": 145
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 294,
+            "hora": "22:40",
+            "desc": "Afectación máxima debido a salida imprevista de la unidad 5 de la CTE Renté y falta de incorporación de motores en Melones y Moa por bajos niveles de combustible."
+        },
+        "dia_anterior": {
+            "desc": "Se afectó el servicio por déficit desde las 20:20 horas hasta la madrugada de hoy.",
+            "horas": 0,
+            "hora_rest": ""
+        }
+    }
+}

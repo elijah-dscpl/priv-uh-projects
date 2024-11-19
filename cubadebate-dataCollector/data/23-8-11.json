@@ -1,0 +1,111 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "11-08-2023",
+            "dia": "11 agosto 2023",
+            "url": "http://www.cubadebate.cu/noticias/2023/08/11/une-pronostica-afectacion-de-111-mw-durante-pico-nocturno/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "pico",
+            "disponibilidad": 3059,
+            "demanda_max": 3100,
+            "deficit": 41,
+            "pronostico": {
+                "afectacion": 111
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2620,
+                "demanda": 2550,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 361,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 4",
+                        "CTE": "Cienfuegos"
+                    },
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "Renté"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 6",
+                        "CTE": "Renté"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 1019,
+                    "razon": "avería",
+                    "mw_afectados": 1019
+                },
+                {
+                    "cantidad": 128,
+                    "razon": "mantenimiento",
+                    "mw_afectados": 128
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "recuperación",
+                    "razon": "combustible en generación distribuida",
+                    "cantidad_mw": 60
+                },
+                {
+                    "desc": "entrada",
+                    "razon": "unidad 2 de la Hidroeléctrica Hanabanilla",
+                    "cantidad_mw": 14
+                },
+                {
+                    "desc": "entrada",
+                    "razon": "unidad 4 de la CTE Cienfuegos",
+                    "cantidad_mw": 120
+                },
+                {
+                    "desc": "entrada",
+                    "razon": "unidad 3 de la CTE Renté",
+                    "cantidad_mw": 80
+                },
+                {
+                    "desc": "entrada",
+                    "razon": "motores de Generación Distribuida",
+                    "cantidad_mw": 165
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 355,
+            "hora": "22:50",
+            "desc": "afectación máxima por déficit de capacidad de generación"
+        },
+        "dia_anterior": {
+            "desc": "Se afectó el servicio por déficit de capacidad de generación a partir de las 19:48 horas",
+            "horas": 7,
+            "hora_rest": "03:01"
+        }
+    }
+}
