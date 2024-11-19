@@ -14,7 +14,7 @@
 
 — Procesa el contenido HTML mediante BeautifulSoup, una herramienta de scraping que facilita encontrar, navegar y extraer elementos específicos del HTML.
 
-## Ventajas del Scraper
+### Ventajas del Scraper
 
 	1.	Personalización: Permite al usuario especificar cualquier URL, adaptándose a diferentes sitios web relacionados con el SEN.
 	2.	Formato Estructurado: Produce un archivo JSON organizado, ideal para su uso en proyectos de Ciencia de Datos o para integrarse con APIs o dashboards.
