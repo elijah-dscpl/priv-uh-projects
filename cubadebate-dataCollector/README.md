@@ -5,11 +5,13 @@
 *1. Función principal*
 
 — Este scraper extrae información estructurada y relevante sobre el Sistema Eléctrico Nacional (SEN) desde cualquier página web especificada por el usuario.
+
 — Genera un archivo .json con los datos procesados, listo para su uso en análisis o almacenamiento.
 
 *2.	Cómo Funciona:*
 
 — Utiliza la biblioteca Requests para realizar solicitudes HTTP y descargar el contenido HTML de las páginas web.
+
 — Procesa el contenido HTML mediante BeautifulSoup, una herramienta de scraping que facilita encontrar, navegar y extraer elementos específicos del HTML.
 
 ## Ventajas del Scraper
