@@ -21,7 +21,7 @@
 	3.	Facilidad de Uso: El código es modular y fácil de ajustar según las necesidades de scraping de cada página.
 	4.	Compatibilidad: Utiliza bibliotecas populares y bien documentadas como Flask, Requests, y BeautifulSoup.
 
-Ejecuta `python dataCollector.py` para ejecutar el scrapper.
+Ejecuta `python dataCollector.py` para iniciar el scrapper.
 
 > Los archivos ".json" se guardan en el directorio [data](./data/)
 
