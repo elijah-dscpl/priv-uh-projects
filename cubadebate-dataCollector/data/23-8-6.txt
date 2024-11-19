@@ -1,0 +1,92 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "2023-08-06",
+            "dia": "domingo",
+            "url": "http://www.cubadebate.cu/noticias/2023/08/06/une-no-pronostica-afectaciones-durante-el-pico-nocturno-de-este-domingo/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "pico nocturno",
+            "disponibilidad": 2953,
+            "demanda_max": 2900,
+            "deficit": 0,
+            "pronostico": {
+                "afectacion": 0
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2780,
+                "demanda": 2370,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 380,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "3",
+                        "CTE": "Renté"
+                    },
+                    {
+                        "nombre": "2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento": [
+                    {
+                        "nombre": "6",
+                        "CTE": "Renté"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 914,
+                    "razon": "averías",
+                    "mw_afectados": 914
+                },
+                {
+                    "cantidad": 108,
+                    "razon": "mantenimiento",
+                    "mw_afectados": 108
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "Entrada de la unidad 2 de la Hidroeléctrica Hanabanilla",
+                    "razon": "adición",
+                    "cantidad_mw": 14
+                },
+                {
+                    "desc": "Entrada de motores de generación distribuida",
+                    "razon": "adición",
+                    "cantidad_mw": 168
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 0,
+            "hora": "",
+            "desc": "No se reportaron afectaciones en el día anterior."
+        },
+        "dia_anterior": {
+            "desc": "No hubo afectaciones por déficit de capacidad de generación.",
+            "horas": 0,
+            "hora_rest": ""
+        }
+    }
+}

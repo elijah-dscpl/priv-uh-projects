@@ -1,0 +1,101 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "2023-08-10",
+            "dia": "jueves",
+            "url": "http://www.cubadebate.cu/noticias/2023/08/10/une-pronostica-afectacion-de-478-mw-durante-pico-nocturno-de-este-jueves/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "pico nocturno",
+            "disponibilidad": 2742,
+            "demanda_max": 3150,
+            "deficit": 408,
+            "pronostico": {
+                "afectacion": 478
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2550,
+                "demanda": 2520,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 376,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "4",
+                        "CTE": "Cienfuegos"
+                    },
+                    {
+                        "nombre": "3",
+                        "CTE": "Renté"
+                    },
+                    {
+                        "nombre": "2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento": [
+                    {
+                        "nombre": "6",
+                        "CTE": "Renté"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 1055,
+                    "razon": "averías",
+                    "mw_afectados": 1055
+                },
+                {
+                    "cantidad": 145,
+                    "razon": "mantenimiento",
+                    "mw_afectados": 145
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "Recuperación de centrales fuera de servicio por combustible",
+                    "razon": "recuperación",
+                    "cantidad_mw": 50
+                },
+                {
+                    "desc": "Entrada de la unidad 2 de la Hidroeléctrica Hanabanilla",
+                    "razon": "adición",
+                    "cantidad_mw": 14
+                },
+                {
+                    "desc": "Entrada de motores de generación distribuida",
+                    "razon": "adición",
+                    "cantidad_mw": 128
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 562,
+            "hora": "22:50",
+            "desc": "Afectación máxima debido a una demanda superior a lo planificado."
+        },
+        "dia_anterior": {
+            "desc": "Se afectó el servicio por déficit desde las 8:38 a.m. hasta las 3:20 a.m. del jueves.",
+            "horas": 18,
+            "hora_rest": "03:20"
+        }
+    }
+}

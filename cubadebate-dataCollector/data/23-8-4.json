@@ -1,0 +1,116 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "2023-08-04",
+            "dia": "viernes",
+            "url": "http://www.cubadebate.cu/noticias/2023/08/04/la-union-electrica-no-pronostica-afectaciones-al-servicio-por-deficit-de-capacidad-de-generacion/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "pico nocturno",
+            "disponibilidad": 3071,
+            "demanda_max": 2950,
+            "deficit": 0,
+            "pronostico": {
+                "afectacion": 0
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2600,
+                "demanda": 2340,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 532,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "5",
+                        "CTE": "Nuevitas"
+                    },
+                    {
+                        "nombre": "2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento": [
+                    {
+                        "nombre": "1",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "6",
+                        "CTE": "Renté"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 892,
+                    "razon": "averías",
+                    "mw_afectados": 892
+                },
+                {
+                    "cantidad": 165,
+                    "razon": "mantenimiento",
+                    "mw_afectados": 165
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "Entrada de la unidad 2 de la Hidroeléctrica Hanabanilla",
+                    "razon": "adición",
+                    "cantidad_mw": 14
+                },
+                {
+                    "desc": "Entrada de la unidad 1 de la CTE Santa Cruz",
+                    "razon": "adición",
+                    "cantidad_mw": 70
+                },
+                {
+                    "desc": "Entrada de la unidad 5 de la CTE Diez de Octubre",
+                    "razon": "adición",
+                    "cantidad_mw": 80
+                },
+                {
+                    "desc": "Entrada de la patana de Melones",
+                    "razon": "adición",
+                    "cantidad_mw": 54
+                },
+                {
+                    "desc": "Completamiento de la unidad 4 de la CTE Cienfuegos",
+                    "razon": "adición",
+                    "cantidad_mw": 90
+                },
+                {
+                    "desc": "Entrada de motores de Generación Distribuida",
+                    "razon": "adición",
+                    "cantidad_mw": 163
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 76,
+            "hora": "22:50",
+            "desc": "Máxima afectación del día anterior."
+        },
+        "dia_anterior": {
+            "desc": "Se afectó el servicio por déficit de capacidad de generación desde las 21:28 hasta las 23:18 horas.",
+            "horas": 1.83,
+            "hora_rest": "23:18"
+        }
+    }
+}

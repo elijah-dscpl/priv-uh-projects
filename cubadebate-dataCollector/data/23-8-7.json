@@ -1,0 +1,102 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "07-08-2023",
+            "dia": "07 agosto 2023",
+            "url": "http://www.cubadebate.cu/noticias/2023/08/07/union-electrica-preve-dia-sin-afectaciones-por-deficit-de-generacion-y-afectacion-de-70-mw-en-el-pico-nocturno/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "diurno",
+            "disponibilidad": 2566,
+            "demanda_max": 2500,
+            "deficit": 2,
+            "pronostico": {
+                "afectacion": 70
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2566,
+                "demanda": 2500,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 365,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "Renté"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 6",
+                        "CTE": "Renté"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 916,
+                    "razon": "avería",
+                    "mw_afectados": 916
+                },
+                {
+                    "cantidad": 265,
+                    "razon": "mantenimiento",
+                    "mw_afectados": 265
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "entrada",
+                    "razon": "unidad 2 de la hidroeléctrica Hanabanilla",
+                    "cantidad_mw": 14
+                },
+                {
+                    "desc": "entrada",
+                    "razon": "CDE Moa",
+                    "cantidad_mw": 100
+                },
+                {
+                    "desc": "generacion movil",
+                    "razon": "Melones",
+                    "cantidad_mw": 150
+                },
+                {
+                    "desc": "motores de generación distribuida",
+                    "razon": "generacion distribuida",
+                    "cantidad_mw": 168
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 70,
+            "hora": "pico",
+            "desc": "afectación prevista"
+        },
+        "dia_anterior": {
+            "desc": "No se afectó el servicio eléctrico por déficit de capacidad de generación",
+            "horas": 0,
+            "hora_rest": "n/a"
+        }
+    }
+}
