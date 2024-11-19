@@ -8,19 +8,16 @@
 — Genera un archivo .json con los datos procesados, listo para su uso en análisis o almacenamiento.
 
 *2.	Cómo Funciona:*
+
 — Utiliza la biblioteca Requests para realizar solicitudes HTTP y descargar el contenido HTML de las páginas web.
 — Procesa el contenido HTML mediante BeautifulSoup, una herramienta de scraping que facilita encontrar, navegar y extraer elementos específicos del HTML.
 
 ## Ventajas del Scraper
 
-	1.	Personalización:
-	•	Permite al usuario especificar cualquier URL, adaptándose a diferentes sitios web relacionados con el SEN.
-	2.	Formato Estructurado:
-	•	Produce un archivo JSON organizado, ideal para su uso en proyectos de Ciencia de Datos o para integrarse con APIs o dashboards.
-	3.	Facilidad de Uso:
-	•	El código es modular y fácil de ajustar según las necesidades de scraping de cada página.
-	4.	Compatibilidad:
-	•	Utiliza bibliotecas populares y bien documentadas como Flask, Requests, y BeautifulSoup.
+	1.	Personalización: Permite al usuario especificar cualquier URL, adaptándose a diferentes sitios web relacionados con el SEN.
+	2.	Formato Estructurado: Produce un archivo JSON organizado, ideal para su uso en proyectos de Ciencia de Datos o para integrarse con APIs o dashboards.
+	3.	Facilidad de Uso: El código es modular y fácil de ajustar según las necesidades de scraping de cada página.
+	4.	Compatibilidad: Utiliza bibliotecas populares y bien documentadas como Flask, Requests, y BeautifulSoup.
 
 Ejecuta `python dataCollector.py` para ejecutar el scrapper.
 
