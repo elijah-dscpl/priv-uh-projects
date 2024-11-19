@@ -2,9 +2,9 @@
 
 Ejecuta `python dataCollector.py` para ejecutar el scrapper.
 
-> Los archivos ".json" se guardan en el directorio "`data`".
+> Los archivos ".json" se guardan en el directorio [data](./data/)
 
-Datos recopilador por el scrapper:
+### Datos recopilador por el scrapper:
 
 - Informacion principal:
     - Fecha.
@@ -60,8 +60,9 @@ Datos recopilador por el scrapper:
     - Total de horas en las que se estuvo sin servicio.
     - Hora en la que se restableció.
 
-La anterior información se guardará en un archivo .json con la siguiente estructura:
+### La anterior información se guardará en un archivo .json con la siguiente estructura:
 
+```json
 {
     "sen_info": {
         "main_info": {
@@ -140,3 +141,4 @@ La anterior información se guardará en un archivo .json con la siguiente estru
         }
     }
 }
+```
