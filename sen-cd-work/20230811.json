@@ -1,0 +1,41 @@
+{
+    "zones_with_problems": ["west" , "middle", "east"], 
+    "date": "230811",
+    "url": "http://www.cubadebate.cu/noticias/2023/08/11/une-pronostica-afectacion-de-111-mw-durante-pico-nocturno/",
+    "prediction": {
+        "availability": 3059,
+        "demand_max": 3100,
+        "impact": 111,
+        "deficit": 41,
+        "backup": 60
+    },
+    "morning_info": {
+        "time": "0700",
+        "availability": 2620,
+        "demand": 2550,
+        "deficit": 0
+    },
+        
+    "broken": {
+        "CF": [4],
+        "RE": [3],
+        "FT": [2]
+    },
+    "maintenance": {
+        "RE": [6]
+    },
+    "limitations": 361,
+        
+    "distributed": {
+        "motors_with_problems": 1019,
+        "total_impact": 1147,
+        "combustible_problems": 60,
+        "ships_with_problems": 128,
+        "motors_impact": 165
+    },
+    "impact": {
+        "total_hours": "0813",
+        "max": 355,
+        "max_hour": "2250"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "zones_with_problems": [],
+    "date": "20230804",
+    "url": "http://www.cubadebate.cu/noticias/2023/08/04/la-union-electrica-no-pronostica-afectaciones-al-servicio-por-deficit-de-capacidad-de-generacion/",
+    "prediction": {
+        "availability": 3071,
+        "demand_max": 2950,
+        "impact": null,
+        "deficit": null,
+        "backup": 121
+    },
+    "morning_info": {
+        "time": "0700",
+        "availability": 2600,
+        "demand": 2340,
+        "deficit": null
+    },
+    "broken": {
+        "NC": [5],
+        "FT": [2]
+    },
+    "maintenance": {
+        "SC": [1],
+        "NC": [6]
+    },
+    "limitations": 532,
+    "distributed": {
+        "motors_with_problems": 892,
+        "total_impact": null,
+        "combustible_problems": null,
+        "ships_with_problems": 165,
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": "0150",
+        "max": 76,
+        "max_hour": "2250"
+    }
+}

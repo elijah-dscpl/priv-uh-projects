@@ -1,0 +1,39 @@
+{
+    "zones_with_problems": ["west" , "middle", "east"], 
+    "date": "230802",
+    "url": "http://www.cubadebate.cu/noticias/2023/08/02/union-electrica-estima-una-afectacion-al-servicio-de-179-mw-en-el-horario-de-maxima-demanda/",
+    "prediction": {
+        "availability": 2891,
+        "demand_max": 3000,
+        "impact": 179,
+        "deficit": 109,
+        "backup": 167
+    },
+    "morning_info": {
+        "time": "0700",
+        "availability": 2660,
+        "demand": 2360,
+        "deficit": 0
+    },
+    "broken": {
+        "FT": [4],
+        "NC": [5],
+        "FT": [2]
+    },
+    "maintenance": {
+        "RE": [6]
+    },
+    "limitations": 418,
+    "distributed": {
+        "motors_with_problems": 911,
+        "total_impact": 1068,
+        "combustible_problems": null,
+        "ships_with_problems": 157,
+        "motors_impact": 167
+    },
+    "impact": {
+        "total_hours": "0205",
+        "max": 94,
+        "max_hour": "2250"
+    }
+}
