@@ -1,0 +1,38 @@
+{
+    "zones_with_problems": ["west" , "middle", "east"], 
+    "date": "",
+    "url": "", 
+    "prediction": {
+        "availability": "",  
+        "demand_max": "",
+        "impact": "",
+        "deficit": "",
+        "backup": ""
+    },
+    "morning_info": {
+        "time": "", 
+        "availability": "", 
+        "demand": "", 
+        "deficit": "" 
+    }, 
+    "plants": [
+        {
+            "id":"",
+            "broken": [],
+            "maintenance": [],
+            "limitation": ""
+    } 
+],
+    "distributed": {
+        "motors_with_problems": "",
+        "total_impact": "",
+        "combustible_problem": "",
+        "snips_with_problems": "",
+        "motors_impact": ""
+    },
+    "impact": {
+        "total_hours": "",
+        "max": "",
+        "max_hour": ""
+    }
+}
